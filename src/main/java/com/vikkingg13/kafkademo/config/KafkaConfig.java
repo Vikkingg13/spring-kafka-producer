@@ -1,6 +1,6 @@
 package com.vikkingg13.kafkademo.config;
 
-import com.vikkingg13.kafkademo.service.event.ProductCreatedEvent;
+import com.vikkingg13.kafkacore.ProductCreatedEvent;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.springframework.beans.factory.annotation.Value;

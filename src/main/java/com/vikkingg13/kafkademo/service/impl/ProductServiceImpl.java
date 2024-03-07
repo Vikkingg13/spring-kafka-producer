@@ -1,8 +1,8 @@
 package com.vikkingg13.kafkademo.service.impl;
 
+import com.vikkingg13.kafkacore.ProductCreatedEvent;
 import com.vikkingg13.kafkademo.service.ProductService;
 import com.vikkingg13.kafkademo.service.dto.CreateProductDto;
-import com.vikkingg13.kafkademo.service.event.ProductCreatedEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
